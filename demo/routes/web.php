@@ -13,5 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/inspire', 'InspiringController@inspire'); 
+use App\Http\Controllers\InspiringController;
 
+Route::get('/inspire', 'App\Http\Controllers\InspiringController@inspire'); 
