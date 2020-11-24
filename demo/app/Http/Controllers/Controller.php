@@ -6,8 +6,22 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
+class InspiringController extends Controller
 
-class Controller extends BaseController
 {
-    use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-}
+
+    /**
+
+     * @return string
+
+     */
+
+    public function inspire()
+
+    {
+
+        return 'inspire';
+
+    }
+
+} 
